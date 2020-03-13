@@ -1,0 +1,27 @@
+.navigation {
+    height: 5rem;
+    width: 100%;
+}
+.navigation-wrapper {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+}
+.navigation a {
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    display: inline;
+    font-family: roboto mono,monospace;
+    font-weight: 700;
+    color: #212121;
+}
+.navigation-wrapper ul {
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.navigation-wrapper ul li {
+    float: left;
+    margin-right: 10px;
+}
